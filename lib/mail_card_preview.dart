@@ -198,21 +198,11 @@ class _MailPreview extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          Text(
-                            '${email.sender} - ${email.time}',
-                            style: textTheme.bodySmall,
-                          ),
                           const SizedBox(height: 4),
                           Text(email.subject, style: textTheme.headlineSmall),
                           const SizedBox(height: 16),
                         ],
                       ),
-                    ),
-                    _MailPreviewActionBar(
-                      avatar: email.avatar,
-                      isStarred: emailStore.isEmailStarred(email),
-                      onStar: onStar,
-                      onDelete: onDelete,
                     ),
                   ],
                 ),
@@ -261,9 +251,9 @@ class _PicturePreview extends StatelessWidget {
           return Padding(
             padding: const EdgeInsetsDirectional.only(end: 4),
             child: Image.asset(
-              'reply/attachments/paris_${index + 1}.jpg',
+              'C:\Users\gellidoap\Desktop\proj\material-components-flutter-motion-codelab\pics\hotel_3.jpg',
               gaplessPlayback: true,
-              package: 'flutter_gallery_assets',
+              
             ),
           );
         },

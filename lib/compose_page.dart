@@ -20,7 +20,6 @@ class ComposePage extends StatelessWidget {
           .elementAt(emailStore.currentlySelectedEmailId);
       subject = currentEmail.subject;
       recipient = currentEmail.sender;
-      recipientAvatar = currentEmail.avatar;
     }
 
     return Scaffold(

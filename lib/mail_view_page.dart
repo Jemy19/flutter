@@ -91,23 +91,10 @@ class _MailViewHeader extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                Text('${email.sender} - ${email.time}'),
-                const SizedBox(height: 4),
-                Text(
-                  'To ${email.recipients},',
-                  style: textTheme.bodySmall!.copyWith(
-                    color: Theme.of(context)
-                        .colorScheme
-                        .onSurface
-                        .withOpacity(0.64),
-                  ),
-                ),
-              ],
+              
             ),
             Padding(
               padding: const EdgeInsetsDirectional.only(end: 4),
-              child: ProfileAvatar(avatar: email.avatar),
             ),
           ],
         ),

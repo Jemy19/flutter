@@ -83,6 +83,7 @@ flutter:
     - packages/flutter_gallery_assets/reply/icons/twotone_star.png
     - packages/flutter_gallery_assets/reply/icons/twotone_stars.png
     - packages/flutter_gallery_assets/reply/reply_logo.png
+    - C:\Users\gellidoap\Desktop\proj\material-components-flutter-motion-codelab\pics\hotel_3.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
